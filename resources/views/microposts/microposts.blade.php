@@ -15,6 +15,7 @@
                             {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-sm']) !!}
                         {!! Form::close() !!}
                     @endif
+                    @include('micropost_favorite.favorite_button', ['user' => $user])
                 </div>
             </div>
             
